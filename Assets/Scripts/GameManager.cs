@@ -10,7 +10,7 @@ public class GameManager : MonoBehaviour
     public Image chImage, avImage, powerImage, tokenImage, spellImage;
     void Awake()
     {
-       if (gameManager != null && gameManager != this)
+       if (GameManager.gameManager != null && GameManager.gameManager != this)
            Destroy(this.gameObject);
        gameManager = this;
     }
