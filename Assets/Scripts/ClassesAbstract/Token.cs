@@ -7,6 +7,10 @@ public abstract class Token : Fighter
     [SerializeField]
     public int position;
     [SerializeField]
+    public int currentHp;
+    [SerializeField]
+    public int currentDamage;
+    [SerializeField]
     public CharacterSO characterSO;
     // Start is called before the first frame update
     void Start()

@@ -10,10 +10,7 @@ public abstract class Fighter : MonoBehaviour
     public int hp;
     [SerializeField]
     public int team;
-    [SerializeField]
-    public int currentHp;
-    [SerializeField]
-    public int currentDamage;
+
     
     // Start is called before the first frame update
     void Start()
